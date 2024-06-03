@@ -5,7 +5,7 @@ COPY . ${HOME}
 WORKDIR ${HOME}
 RUN pip install -r requirements.txt
 
-COPY ./entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+COPY ./entrypoint.sh ${HOME}/entrypoint.sh
+RUN chmod +x ${HOME}/entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["${HOME}/entrypoint.sh"]
