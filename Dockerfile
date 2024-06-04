@@ -5,6 +5,6 @@ COPY . ${HOME}
 WORKDIR ${HOME}
 
 RUN pip install -r requirements.txt
-RUN sudo apt-get install -y libgl1-mesa-glx xvfb
+RUN apt install -y libgl1-mesa-glx xvfb
 
 ENV CN_TEST='/pyvista-proxy/'
