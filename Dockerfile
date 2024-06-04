@@ -7,10 +7,6 @@ ARG NB_UID
 COPY . ${HOME}
 WORKDIR ${HOME}
 
-USER root
-RUN apt install -y libgl1-mesa-glx xvfb
-USER ${NB_USER}
-
 RUN pip install -r requirements.txt
 
 ENV CN_TEST='/pyvista-proxy/'
