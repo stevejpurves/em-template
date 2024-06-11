@@ -34,4 +34,5 @@ chapters:
       - file: notebooks/03.interactive_movie
       - file: notebooks/04.interactive_volume_slicing
       - file: notebooks/05.interactive_volume_rendering
+      - file: notebooks/05a.pyvista_basics
       - file: notebooks/06.custom_FT_1D

@@ -39,7 +39,9 @@ project:
     PDF: portable document format
     STEM: scanning transmission electron microscopy
   banner: banner.png
-  jupyter: true
+  jupyter:
+    binder:
+      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
 site:
   template: book-theme
   title: EM Template
