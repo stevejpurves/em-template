@@ -7,3 +7,4 @@ h5py
 ipympl
 jupyterlab-myst
 av # instead of imageio-ffmpeg
+jupyter_server_user_token
