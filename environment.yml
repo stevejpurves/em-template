@@ -7,7 +7,7 @@ dependencies:
   - scipy
   - matplotlib
   - plotly
-  - pyvista
+  - pyvista>=0.44.0
   - nglview
   - h5py
   - imageio
