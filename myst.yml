@@ -41,7 +41,7 @@ project:
   banner: banner.png
   jupyter:
     binder:
-      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+      url: http://localhost:8000/services/binder
 site:
   template: book-theme
   title: EM Template
